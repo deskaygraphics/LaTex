@@ -1,0 +1,186 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.3in, right=.3in, top=.3in, bottom=.3in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem, hyperref, fontawesome5, multicol}
+\usepackage{titlesec}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{0.5em}{0.5em}
+
+\begin{document}
+
+\sloppy % Fix overfull/underfull warnings
+
+% Header
+\begin{center}
+    {\huge \textbf{Desmond Kangah}}\\
+    \textit{Msc Civil Engineering}\\
+    \faIcon{phone} +1 2254336635 \quad
+    \faIcon{envelope} \href{desmondkangah98@gmail.com}{desmondkangah98@gmail.com} \quad
+    \faIcon{github} \href{https://github.com/kangahdesmond}{kangahdesmond}
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/desmond-kangah-629b9a27b/}{desmond-kangah}
+\end{center}
+
+% Professional Summary
+\section*{PROFESSIONAL SUMMARY}
+Geospatial engineer and surveyor specializing in GeoAI, using AI and machine learning 
+to analyze spatial data, automate processes, and deliver innovative solutions for 
+urban planning, environmental monitoring, and infrastructure development. 
+Skilled in GIS, remote sensing, and spatial programming.
+
+% Education
+\section*{EDUCATION}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{MSc in Civil Engineering} \hfill Aug. 2024 {-} Present \\
+    Louisiana State University, Baton Rouge, LA {--} Concentration: Geodesy and Geomatics \qquad
+    \textit{Current GPA 4.0/4.0\@}
+    \item \textbf{BSc in Geomatic Engineering}  \quad
+    University of Mines and Technology, Tarkwa, Ghana, CWA 81.24/100 \hfill Sep 2018 {-} 2022
+\end{itemize}
+
+ \section*{Relevant Courses}
+ \begin{multicols}{4} % Three columns
+ \begin{itemize}[leftmargin=*]
+     \item GIS and Remote Sensing
+     \item Geodesy
+     \item Photogrammetry
+     \item Deep Learning
+     \item Machine Learning
+     \item Computer Vision
+     \item Spatial Software Design
+     \item GNSS
+ \end{itemize}
+ \end{multicols}
+
+ % Skills
+\section*{SKILLS}
+\textbf{Softwares}
+\textbf{Geospatial Tools} Geemap, Leafmap, Google Earth Engine, QGIS, ArcGIS, 
+SNAP, ISCE2, GMT, ENVI, SNAP\\
+\textbf{Languages:}  HTML/CSS, JavaScript, Python, Matlab\\
+\textbf{Tools:} Git, VS Code, PostgreSQL, ISCE2 Tools, Geospatial packages\\
+\textbf{Other Skills:} AutoCAD, Civil 3D, Photoshop, Microsoft Office Suite, LaTeX, Vscode, Spyder.
+
+
+% Experience
+\section*{WORK EXPERIENCE}
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Teaching and Research Assistant} \hfill Aug 2024 {-} Present \\
+    Louisiana State University, Baton Rouge, LA
+    \begin{itemize}[noitemsep]
+        \item Processing and analyzing InSAR data for land subsidence monitoring
+        \item Assisted in teaching surveying courses
+        \item Conducted research on AI for land use classification
+        \item Developing web-based GIS application for urban planning
+    \end{itemize}
+
+    \item \textbf{Chief Surveyor} \hfill Jan. 2024 {-} Aug. 2024 \\
+    MAC Partners, Mining, Accra, 
+    \begin{itemize}[noitemsep]
+        \item Conducted topographic surveys for Processing Plant construction
+        \item Created CAD 3D models for Plant site planning and development
+        \item Setting out of infrastructure and plant designs for construction
+        \item Conducted drone surveys for power line routing, and volume calculation
+    \end{itemize}
+
+    \item \textbf{Teaching and Research Assistant} \hfill Jun. 2023 {-} Dec. 2023 \\
+    University of Mines and Technology, Tarkwa, Ghana
+    \begin{itemize}[noitemsep]
+        \item Teaching GIS and remote sensing for free
+        \item Teaching surveying and it applications using GNSS devices, total stations, and drones
+        \item Guided students in their final year projects
+        \item Helping lecturers in research work and publications
+    \end{itemize}
+
+    \item \textbf{Assistant Surveyor} \hfill Oct. 2022 {-} May. 2023 \\
+    Ghana Highway Authority, Accra, Ghana
+    \begin{itemize}[noitemsep]
+        \item Conducted road surveys for road construction and maintenance
+        \item Created CAD drawings for road designs
+        \item Assisted in setting out of road alignments
+        \item Conducted drone surveys for road corridor mapping
+    \end{itemize}
+
+
+    \item \textbf{Assistant Surveyor (Part-Time)} \hfill Oct. 2019 {-} Dec. 2021 \\
+    Wilhelm Construction, Tarkwa, Ghana
+    \begin{itemize}[noitemsep]
+        \item Conducted topographic surveys for road construction
+        \item Created CAD drawings for road designs
+        \item Assisted in setting out of road alignments
+        \item Conducted drone surveys for road corridor mapping. %\newline
+    \end{itemize}
+\end{itemize}
+
+% Projects
+\section*{PROJECTS} 
+\begin{itemize}[leftmargin=*]
+    \item \textbf{InSAR Analysis for Land Subsidence Monitoring} \hfill Sep. 2024 {-} Jan. 2025 \\
+    Used InSAR data to monitor deformation in East Baton Rouge Parish Transportation Network. I use sentinel-1 data 
+    and processed it using PSI and SBAS techniques. The results were validated using GNSS data and final velocity maps were created.
+
+    \item \textbf{Land Use and Land Cover Segmentation} \hfill Feb. 2025 \\
+    Used Unet deep learning to segment land use and land cover from satellite images into classes. The techniques involved
+    labeling the data, data augmentation, training the model, and evaluating the model performance.
+    A model deployment was done using using Hugging Face to automate segmentation of new images.
+
+
+    \item \textbf{Landslide Susceptibility Mapping} \hfill Dec. 2024\\
+    Used remote sensing and GIS to map landslide susceptibility zones in East Baton Parish
+    using AHP and logistic regression. I exploited whitebox, Gee, Geemap and ArcGIS for 
+    create the various layers and the final susceptibility map.
+
+    \item \textbf{Common Grid Software} \hfill Nov. 2023 \\
+   I did developed this software through a contract with two mining company to automate the process of creating common grids for
+   mine coordinating. The software was developed using using Matlab App designer and geodetic formulas and parameters.
+
+    \item \textbf{3D Coordinate Transformation Software} \hfill Jul. 2021 {-} Aug. 2022 \\
+    Bsc. Geomatic Engineering final year project. Developed a software to transform 3D coordinates between
+    different coordinate systems. The software was developed using C-Sharp and Visual Studio.
+
+    \item \textbf{Water Quality Analysis} \hfill June. 2021 {-} Jul 2022 \\
+    In this project, I analyzed the water quality of Lake Bosomtwe using Google Earth Engine. I used Landsat data to
+    monitor the water quality of the river. The results were validated using field data and the final map was created using ArcGIS.
+
+    \item \textbf{RainFall Forcast using ARIMA} \hfill Aug. 2022 {-} Dec. 2022 \\
+    This project was a contract from Benso Palm Plantation Factory. I used ARIMA to forecast rainfall for the next 5 years using their rainfall collected data for 30 years. The data was collected from the Ghana Meteorological Agency and
+    the model was trained and tested using Python. The results were validated using field data and the final forecast was created.
+\end{itemize}
+
+\section*{Online Courses (Certificates)}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Applied AI Lab– Worldquant University} \hfill Jan. 2025 {-} Present\\
+    In this course, I am mastering Computer vision, Deep learning, Machine learning and Transfer learning. I have already some competition project such as endengered species classification, 
+    image segmentation, object detection, and face recognition using YOLO, CNN, Transfer learning on ResNet and Pytorch.
+
+    \item \textbf{Spatial Software Design – University of Tennessee}  \hfill Jan. 2025 {-} Present\\
+    In this course, I learned how to design and develop spatial software using Python, JavaScript, and HTML/CSS. I mastered the use of git and github for version control and collaboration. 
+    I created my own website using github.io and automated GIS processes using Python.
+
+    \item \textbf{PostgreSQL for Spatial Query – DataCamp and Open Geospatial Solutions} \hfill Jan. 2025 {-} Feb. 2025\\
+    In this course, I learned how to use PostgreSQL for spatial queries. I mastered the use of PostGIS for spatial queries, spatial joins, and spatial analysis.
+
+    \item \textbf{Deep Learning for LULC Classification – Kaggle and 650 AI Lab} \hfill Feb. 2025 \\
+    In this course, I learned how to use deep learning for land use and land cover classification and segmentation. 
+    I mastered the use of Unet, ResNet, and EfficientNet for LULC classification.
+
+    \item \textbf{InSAR Training Course – University of Alaska } \hfill Oct. 2024 {-} Dec. 2024\\
+    In this course, I learned the basics of InSAR, how to process InSAR data, and how to interpret the results. I mastered the use of ISCE2 Tools, SNAP, and GMT for InSAR processing.
+
+    \item \textbf{GIS Programming – University of Tennessee} \hfill Sep. 2024 {-} Jan. 2025\\
+    In this course, I learned how to use Python to automate GIS processes, making use of Xarray, Rasterio, pandas, and efficient use of GIS tools. I mastered the use of whitebox, Geemap, Leafmap, and Google Earth Engine for GIS programming.
+
+
+    \item \textbf{Deep and Machine Learning  – Pantech Solutions} \hfill March. 2024  {-} Dec. 2024\\
+    In this course, I learned the basics of deep learning, machine learning, and computer vision. I mastered the use of Python, Tensorflow, Keras, and Pytorch for deep learning and machine learning.
+    \item \textbf{Google Earth Engine for Geospatial Analysis – Study Hacks} \hfill Jul. 2024 \\
+    In this course, I learned how to use Google Earth Engine for geospatial analysis. I mastered the use of Google Earth Engine for land cover classification, change detection, and time series analysis.
+    
+\end{itemize}
+\end{document}
+
+
+
+
+
+

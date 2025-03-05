@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font size and paper type
+\usepackage{lmodern} % Use Latin Modern fonts
+\moderncvstyle{classic} % CV theme (options: 'casual', 'classic', 'oldstyle', 'banking')
+\moderncvcolor{blue} % CV color (options: 'blue', 'orange', 'green', 'red', 'purple', 'grey', 'black')
+
+\usepackage[scale=0.75]{geometry} % Adjust page margins
+\usepackage{multicol}
+
+% Personal Information
+\name{John}{Doe}
+\title{Curriculum Vitae} % Optional
+\address{123 Street}{City, State, ZIP}{Country}
+\phone[mobile]{+1 (123) 456-7890}
+\email{johndoe@example.com}
+\homepage{www.johndoe.com} % Optional
+\social[linkedin]{john-doe} % Optional
+\social[twitter]{johndoe} % Optional
+\social[github]{johndoe} % Optional
+\extrainfo{Additional information (e.g., date of birth, nationality)} % Optional
+
+\begin{document}
+\makecvtitle % chktex 1
+\makecvtitle
+
+% Section: Education
+\section{Education}
+\cventry{Year--Year}{Degree}{Institution}{City}{\textit{GPA}}{Description} % Example
+\cventry{2018--2022}{Bachelor of Science in Computer Science}{University of Example}{City, State}{3.8/4.0}{Relevant coursework, honors, or achievements.}
+
+% Section: Experience
+\section{Experience}
+\cventry{Year--Year}{Job Title}{Employer}{City}{}{Description} % Example
+\cventry{2021--2022}{Software Engineer Intern}{Tech Company}{City, State}{}{
+\begin{itemize}
+\item Developed and maintained web applications using React and Node.js.
+\item Collaborated with cross-functional teams to deliver projects on time.
+\item Improved system performance by optimizing database queries.
+\end{itemize}}
+
+% Section: Skills
+\section{Skills}
+\cvitem{Programming}{Python, Java, C++, JavaScript, SQL}
+\cvitem{Tools}{Git, Docker, Linux, VS Code, LaTeX}
+\cvitem{Languages}{English (Fluent), Spanish (Intermediate)}
+
+% Section: Projects
+\section{Projects}
+\cventry{2022}{Project Name}{}{}{}{Description of the project, technologies used, and your role.}
+\cventry{2021}{Personal Website}{}{}{}{Designed and deployed a personal portfolio website using React and Firebase.}
+
+% Section: Certifications
+\section{Certifications}
+\cvitem{2022}{Certified Python Developer}
+\cvitem{2021}{AWS Certified Solutions Architect – Associate}
+
+% Section: Interests (Optional)
+\section{Interests}
+\cvitem{Hobbies}{Reading, hiking, open-source contributions, and photography.}
+
+\end{document}
